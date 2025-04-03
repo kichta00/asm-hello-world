@@ -17,7 +17,7 @@ gcc hello.obj -o hello.exe -lkernel32 # Create executable
 
 
 ## 📸 Screenshot  
-![Output del programma](hello-output.png)
+![Output of the program](hello-output.png)
 
 
  Project Files
