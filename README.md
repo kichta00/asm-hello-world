@@ -15,6 +15,11 @@ nasm -f win64 hello.asm -o hello.obj  # Convert to machine code
 gcc hello.obj -o hello.exe -lkernel32 # Create executable
 .\hello.exe                           # Run the program
 
+
+## 📸 Screenshot  
+![Output del programma](hello-output.png)
+
+
  Project Files
 File	Description
 hello.asm	Assembly source code
