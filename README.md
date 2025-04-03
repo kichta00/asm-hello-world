@@ -11,9 +11,9 @@ Welcome to your first Assembly project! This guide will help you run a "Hello Wo
 
 2. **Open PowerShell** in the project folder and run:  
 ```powershell
-nasm -f win64 hello.asm -o hello.obj  # Convert to machine code
-gcc hello.obj -o hello.exe -lkernel32 # Create executable
-.\hello.exe                           # Run the program
+nasm -f win64 src/hello.asm -o bin/hello.obj  # Convert to machine code
+gcc bin/hello.obj -o bin/hello.exe -lkernel32  # Create executable
+./bin/hello.exe                           # Run the program
 
 
 ## 📸 Screenshot  
