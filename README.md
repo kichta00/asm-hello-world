@@ -1,6 +1,6 @@
 # asm-hello-world  
 *(For Absolute Beginners!)*  
-
+A beginner-friendly x64 Assembly 'Hello World' for Windows. Learn how to speak directly to the CPU!
 Welcome to your first Assembly project! This guide will help you run a "Hello World" program on Windows x64.
 
 ## Quick Start  
